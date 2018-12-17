@@ -103,12 +103,12 @@ public class TSP_GA {
         // Evolve population for 100 generations
         pop = GA.evolvePopulation(pop);
         int iterasi = 0;
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 0; i < 100; i++) {
             pop = GA.evolvePopulation(pop);
             iterasi++ ;
         }
 
-        PrintWriter pw = new PrintWriter(new File("hasil.csv"));
+        PrintWriter pw = new PrintWriter(new File("hasilGA.csv"));
         StringBuilder sb = new StringBuilder();
         sb.append(pop.getFittest());
         pw.write(sb.toString());
