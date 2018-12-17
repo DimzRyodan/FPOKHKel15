@@ -58,7 +58,7 @@ public class TravelingSalesman {
  //           windowTSP.draw(bestAnt.getTour());
         }
 
-        PrintWriter pw = new PrintWriter(new File("hasil.csv"));
+        PrintWriter pw = new PrintWriter(new File("hasilAntCol.csv"));
         StringBuilder sb = new StringBuilder();
         sb.append("Best Tour: City ");
         sb.append(bestAnt);

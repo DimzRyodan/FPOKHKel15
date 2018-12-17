@@ -14,9 +14,9 @@ public class Main {
             
             int ants    = 100;          // Number of ants to run per generation.
             int gen     = 100;          // Number of generations.
-            double evap = 0.0001;          // Evaporation rate of pheromones.
-            int alpha   = 10;            // Impact of pheromones on decision making.
-            int beta    = 50;            // Impact of distance on decision making.
+            double evap = 0.1;          // Evaporation rate of pheromones.
+            int alpha   = 1;            // Impact of pheromones on decision making.
+            int beta    = 5;            // Impact of distance on decision making.
             
             System.out.println("Use the parameter '-p' for custom settings.");
             System.out.println("Otherwise the default values will be: ");
